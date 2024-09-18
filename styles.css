@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'roboto';
+    src: url(https://fonts.googleapis.com/css?family=Roboto);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'roboto';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px 300px;
+    gap: 30px;
+}
+
+.logo {
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #E5E7EB;
+}
+
+.title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.subtext,
+button,
+.copyright,
+.hero-img,
+.logo,
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+a {
+    text-decoration: none; 
+}
