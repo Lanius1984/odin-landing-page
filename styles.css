@@ -1,11 +1,6 @@
-@font-face {
-    font-family: 'roboto';
-    src: url(https://fonts.googleapis.com/css?family=Roboto);
-}
-
 * {
     box-sizing: border-box;
-    font-family: 'roboto';
+    font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -125,18 +120,32 @@ a {
 
 .info-img {
     border: 3px solid #3882F6;
-    border-radius: 7px;
-    height: 150px;
-    width: 150px;
+    border-radius: 15px;
+    max-height: 150px;
+    max-width: 150px;
     margin-bottom: 10px;
 }
 
-.card-subtext {
-
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height: 350px;
+    padding: 100px 30%;
+    justify-content: center;
 }
 
+.quote-text {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-family: "Roboto-ThinItalic";
+}
 
-
-.quote {
-    border: 2px solid red; /*to be deleted*/
+.author {
+    text-align: end;
+    font-weight: 600;
+    font-size: 24px;
+    color: #1F2937;
 }

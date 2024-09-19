@@ -13,6 +13,8 @@ Image 2: https://cdn.statically.io/gh/TheOdinProject/curriculum/69e40b6fcacf567f
 
 Thanks to the following for creating great images:
 
-Logo Image by Petra https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1935665
+Logo Image by Ptra from Pixabay
 
-Hero Image by joextremo https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9048966
+Hero Image by joextremo from Pixabay
+
+Info Images by BiancaVanDijk from Pixabay
