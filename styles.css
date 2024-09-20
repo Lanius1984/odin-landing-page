@@ -23,14 +23,19 @@ button,
 .copyright,
 .hero-img,
 .logo,
+.banner-text,
 a {
     font-size: 18px;
     color: #E5E7EB;
 }
 
 button,
-.banner-container {
+.banner {
     background-color: #3882F6;
+}
+
+button {
+    cursor: pointer;
 }
 
 a {
@@ -60,7 +65,7 @@ a {
 }
 
 .hero-text {
-    /* padding-right: 50px; */
+    padding-right: 10px;
     max-width: 500px;
     flex-shrink: 1;
 }
@@ -130,7 +135,7 @@ a {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    height: 350px;
+    min-height: 350px;
     padding: 100px 30%;
     justify-content: center;
 }
@@ -140,12 +145,53 @@ a {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    font-family: "Roboto-ThinItalic";
+    font-weight: 100;
+    padding: 0 20px 20px 20px;
 }
 
 .author {
     text-align: end;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 24px;
     color: #1F2937;
+}
+
+.banner-container {
+    display: flex;
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    padding: 40px 100px;
+    align-items: center;
+    gap: 120px;
+    border-radius: 7px;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.banner-button {
+    flex-shrink: 0;
+    padding: 5px 25px;
+    border: 2px solid #F9FAF8;
+    border-radius: 7px;
+}
+
+.footer {
+    display: flex;
+    min-height: 80px;
+    justify-content: center;
+    align-items: center;
 }
