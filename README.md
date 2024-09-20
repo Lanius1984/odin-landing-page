@@ -1,5 +1,14 @@
 # odin-landing-page
 
+Project Complete - 
+
+All lessons on flexbox leading to this project helped prepare me well. I found it easy to work with and didn't need to look for help on structure to get to the end result.
+
+I laid out a basic structure on paper, before then creating the html to follow it. I then styled the content from top to bottom on the landing page. My initial structure proved successful and didn't require any major changes.
+
+Some elements are responsive and flex nicely with viewport changes. However as this was specifically noted to be out of scope, I did not ensure that all elements were responsive, and currently don't know the most effective way to do this.
+
+
 Odin Project Brief:
 
 For this project you’ll be creating an entire web page from a design we’ll provide for you.
